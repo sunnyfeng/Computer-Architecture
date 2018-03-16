@@ -1,3 +1,8 @@
+#Yuqing (Sunny) Feng
+#RUID: 170006296
+#NetID: yf184
+#Comp. Arch. Lab with Bangtian Liu
+
 .data
   inputStr: .asciiz "Input an integer from 1 to 20: "
   calcStr: .asciiz "Calculating the cube’s volume with sides of "

@@ -1,0 +1,30 @@
+#include<stdlib.h>
+#include<stdio.h>
+
+int main(int argc, char **argc){
+  int num;
+  printf("Enter a positive integer <= 100: \n");
+  scanf("%d", &num);
+  if (num > 100 || num < 1){
+    printf("Error. n is not between 1 and 100. Ending.\n");
+    return;
+  }
+
+  while (n < 102){
+    int i;
+    boolean isPrime = true;
+    for (i = 2; i < n; i++){
+      if (n%i == 0){
+      	isPrime = false;
+        break;
+      }
+    }
+
+    if (isPrime){
+      printf("The closest prime number >= n is: %d", n);
+      return 0;
+    }
+    n++;
+  }
+
+}

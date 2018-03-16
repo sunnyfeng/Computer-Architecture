@@ -1,3 +1,8 @@
+#Yuqing (Sunny) Feng
+#RUID: 170006296
+#NetID: yf184
+#Comp. Arch. Lab with Bangtian Liu
+
 .text
 .globl main
 main:
